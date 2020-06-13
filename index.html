@@ -1,37 +1,23 @@
 <html>
     <head>
-        <style>
-            table{
-                border-collapse: collapse;
-                border: 1px solid #000;
-            }
-            td{
-                width: 50px;
-                height: 50px;
-                border: 1px solid #000;
-                text-align: center;
-                vertical-align: center;
-                font-family: monospace;
-                font-size: 18px;
-                position: relative;
-            }
-            .pixel-index{
-                font-size: 10px;
-                display: inline-block;
-                position: absolute;
-                top: 2px;
-                right: 2px;
-                color: #999;
-            }
-            td.pixel{
-                width: 4px;
-                height: 4px;
-                border: 0;
-            }
-        </style>
+      <title>Doom Fire</title>
+      <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="fireCanvas"></div>
+          <header>
+            <h1>DooM</h1>
+          </header>
+
+          <div id="content">
+            <canvas id="fire-canvas"></canvas>
+            <div>
+              <div id="increase-option" class="option">IncreasE</div>
+              <div id="decrease-option" class="option">DecreasE</div>
+              <div id="destroy-option" class="option">DestroY</div>
+              <div id="max-option" class="option">BurN</div>
+            <div>
+          </div>
+
         <script src="fire.js"></script>
     </body>
 </html>
